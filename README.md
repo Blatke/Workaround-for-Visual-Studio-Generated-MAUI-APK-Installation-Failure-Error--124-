@@ -66,11 +66,11 @@ set OUTPUT_FINAL=%WORK_DIR%\final.apk
 set SEVENZIP="C:\Program Files\7-Zip\7z.exe"
 
 :: Android SDK Build Tools Path (Modify according to your actual path)
-set BUILD_TOOLS=C:\Users\blake\AppData\Local\Android\Sdk\build-tools\37.0.0
+set BUILD_TOOLS=C:\Users\YourUserName\AppData\Local\Android\Sdk\build-tools\37.0.0
 
 :: Keystore Information
-set KEYSTORE_PATH=C:\Users\blake\AppData\Local\Xamarin\Mono for Android\Keystore\Bl@ke\Bl@ke.keystore
-set KEY_ALIAS=bl@ke
+set KEYSTORE_PATH=C:\Users\YourUserName\AppData\Local\Xamarin\Mono for Android\Keystore\KeyName\KeyName.keystore
+set KEY_ALIAS=keyname
 
 cd /d %WORK_DIR%
 
@@ -133,7 +133,14 @@ pause
 
 ```
 
-**Note**: Please modify the variables in the script based on your actual SDK path, keystore path, and alias.
+> [!NOTE]
+>
+> In the following code, please modify the variables in the script based on your actual SDK path, keystore path, and alias.
+> ```
+> set BUILD_TOOLS=C:\Users\YourUserName\AppData\Local\Android\Sdk\build-tools\37.0.0
+> set KEYSTORE_PATH=C:\Users\YourUserName\AppData\Local\Xamarin\Mono for Android\Keystore\KeyName\KeyName.keystore
+> set KEY_ALIAS=keyname
+> ```
 
 ### 3.2 Execute the Batch File
 
