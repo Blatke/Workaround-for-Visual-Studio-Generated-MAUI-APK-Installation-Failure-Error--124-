@@ -9,6 +9,7 @@
 ## 0. Environment
 - Visual Studio 2026 18.7.0
 - Xiaomi HyperOS 3.0.302.0 based on Android 16
+- Windows 10 Home Edition 22H2 19045.7291
 
 ## 1. Cause of the Issue
 
