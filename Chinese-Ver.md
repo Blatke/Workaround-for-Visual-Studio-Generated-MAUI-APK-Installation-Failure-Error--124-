@@ -1,7 +1,7 @@
 # 解决Visual Studio生成的MAUI APK安装失败（错误-124）的变通方案
 ## 0. 测试环境
 - Visual Stiduo 2026 18.7.0
-- Xiaomi HyperOS 3.0 (based on Android 11+)
+- Xiaomi HyperOS 3.0.302.0 based on Android 16
 
 ## 1. 问题原因
 
