@@ -1,5 +1,9 @@
 # Workaround for Visual Studio-Generated MAUI APK Installation Failure (Error -124)
 
+> [!TIP]
+>
+> [中文版本](https://github.com/Blatke/Workaround-for-Visual-Studio-Generated-MAUI-APK-Installation-Failure-Error--124-/blob/main/Chinese-Ver.md)
+
 ## 0. Environment
 - Visual Studio 2026 18.7.0
 - Xiaomi HyperOS 3.0 (based on Android 11+)
