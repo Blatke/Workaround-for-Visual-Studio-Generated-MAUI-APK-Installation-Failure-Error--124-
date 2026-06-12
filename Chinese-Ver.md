@@ -53,11 +53,11 @@ set OUTPUT_FINAL=%WORK_DIR%\final.apk
 set SEVENZIP="C:\Program Files\7-Zip\7z.exe"
 
 :: Android SDK Build Tools路径（根据您的实际路径修改）
-set BUILD_TOOLS=C:\Users\blake\AppData\Local\Android\Sdk\build-tools\37.0.0
+set BUILD_TOOLS=C:\Users\YourUserName\AppData\Local\Android\Sdk\build-tools\37.0.0
 
 :: 密钥库信息
-set KEYSTORE_PATH=C:\Users\blake\AppData\Local\Xamarin\Mono for Android\Keystore\Bl@ke\Bl@ke.keystore
-set KEY_ALIAS=bl@ke
+set KEYSTORE_PATH=C:\Users\YourUserName\AppData\Local\Xamarin\Mono for Android\Keystore\KeyName\KeyName.keystore
+set KEY_ALIAS=keyname
 
 cd /d %WORK_DIR%
 
@@ -119,7 +119,16 @@ echo ========================================
 pause
 ```
 
-**注意**：请根据您实际的SDK路径、密钥库路径和别名修改脚本中的变量。
+> [!NOTE]
+>
+> 请根据您实际的SDK路径、密钥库路径和别名修改脚本中的变量:
+> ```
+> set BUILD_TOOLS=C:\Users\YourUserName\AppData\Local\Android\Sdk\build-tools\37.0.0
+> set KEYSTORE_PATH=C:\Users\YourUserName\AppData\Local\Xamarin\Mono for Android\Keystore\KeyName\KeyName.keystore
+> set KEY_ALIAS=keyname
+> ```
+
+**注意**：
 
 ### 3.2 执行批处理文件
 - 将VS生成的`VS_Generated.apk`文件复制到`D:\APKs`文件夹（或直接在该文件夹下生成）
