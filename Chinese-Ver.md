@@ -121,7 +121,7 @@ pause
 
 > [!NOTE]
 >
-> 请根据您实际的SDK路径、密钥库路径和别名修改脚本中的变量:
+> 请根据您实际的SDK路径、密钥库路径和别名修改上述脚本中的变量:
 > ```
 > set BUILD_TOOLS=C:\Users\YourUserName\AppData\Local\Android\Sdk\build-tools\37.0.0
 > set KEYSTORE_PATH=C:\Users\YourUserName\AppData\Local\Xamarin\Mono for Android\Keystore\KeyName\KeyName.keystore
