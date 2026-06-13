@@ -135,7 +135,7 @@ pause
 
 > [!NOTE]
 >
-> In the following code, please modify the variables in the script based on your actual SDK path, keystore path, and alias.
+> In the code given above, please modify the variables in the script based on your actual SDK path, keystore path, and alias.
 > ```
 > set BUILD_TOOLS=C:\Users\YourUserName\AppData\Local\Android\Sdk\build-tools\37.0.0
 > set KEYSTORE_PATH=C:\Users\YourUserName\AppData\Local\Xamarin\Mono for Android\Keystore\KeyName\KeyName.keystore
