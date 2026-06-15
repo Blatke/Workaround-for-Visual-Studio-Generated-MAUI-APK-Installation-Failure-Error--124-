@@ -38,8 +38,8 @@ Visual Studio在默认发布流程中（即使是Release配置）打包APK时，
 ## 3. 操作步骤（编制BAT批处理文件并执行）
 
 ### 前提条件
-- 已安装7-Zip（默认路径`C:\Program Files\7-Zip\7z.exe`）
-- Android SDK Build Tools已安装（包含`zipalign`和`apksigner`），您的路径为：  
+- 已安装[7-Zip](https://www.7-zip.org)（默认路径`C:\Program Files\7-Zip\7z.exe`）
+- [Android SDK](https://developer.android.com/studio) Build Tools已安装（包含`zipalign`和`apksigner`），您的路径为：  
   `C:\Users\YourUserName\AppData\Local\Android\Sdk\build-tools\37.0.0`
 - 已有可用的密钥库文件（例如`KeyName.keystore`），已知别名`keyname`
 - VS生成的原始APK文件名为`VS_Generated.apk`，存放在`D:\APKs`文件夹
