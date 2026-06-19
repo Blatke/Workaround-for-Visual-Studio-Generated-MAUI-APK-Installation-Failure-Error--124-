@@ -1,4 +1,11 @@
 # 解决Visual Studio生成的MAUI APK安装失败（错误-124）的变通方案
+> [!IMPORTANT]
+>
+> 这个变通方案计划创建一个.bat脚本，用于重新打包和重新签名因Visual Studio发布和压缩导致的-124错误的apk。
+>
+> 基于以下解决方案编写了一个桌面工具，它能让你的操作更加灵活。请访问以下链接查看：https://github.com/Blatke/Apk-Re-Signer
+
+
 
 <img height="300" alt="96c382f9877534deea787043542b2e34" src="https://github.com/user-attachments/assets/84f0b8fe-d900-43de-aea7-46674542fed7" />
 
