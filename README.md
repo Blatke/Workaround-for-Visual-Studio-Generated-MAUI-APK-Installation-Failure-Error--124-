@@ -17,7 +17,7 @@
 > [Chinese Version / 中文版本](https://github.com/Blatke/Workaround-for-Visual-Studio-Generated-MAUI-APK-Installation-Failure-Error--124-/blob/main/Chinese-Ver.md)
 
 ## 0. Environment
-- Visual Studio 2026 18.5.2-18.7.3
+- Visual Studio 2026 18.6.1-18.7.3
 - Xiaomi HyperOS 3.0.302.0 based on Android 16
 - Windows 10 Home Edition 22H2 19045.7291
 
