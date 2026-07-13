@@ -1,11 +1,10 @@
-# Workaround for Visual Studio-Generated MAUI APK Installation Failure (Error -124)
-
 > [!IMPORTANT]
 >
 > This workaround plans to create .bat script to re-pack and re-sign the apk that has -124 failure caused by Visual Studio publishing and compressing.
 > 
 > A desktop tool was written based on the following workaround, and it makes your operation more flexible. Please check it at: https://github.com/Blatke/Apk-Re-Signer
 
+# Workaround for Visual Studio-Generated MAUI APK Installation Failure (Error -124)
 
 <img height="300" alt="719b05ef7152764f2802d679a08e80a0" src="https://github.com/user-attachments/assets/fd497a4a-8d46-41e4-b49b-7a4fb20f4aca" />
 
